@@ -7,7 +7,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/products', function () {
-    $products = Product::all();
-    return $products;
-});
+// Route::get('/products', function () {
+//     $products = Product::all();
+//     return $products;
+// });
